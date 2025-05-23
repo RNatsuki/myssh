@@ -1,0 +1,39 @@
+# Source files
+src/
+test.js
+
+# TypeScript config
+tsconfig.json
+
+# Development configs
+.git/
+.github/
+.vscode/
+.editorconfig
+.gitignore
+.npmignore
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Lock files (since you're using pnpm)
+pnpm-lock.yaml
+
+# Distribution directory
+# We don't exclude dist/ because it contains the compiled code
+# that others will use when they install your package
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

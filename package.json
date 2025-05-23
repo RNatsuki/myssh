@@ -1,0 +1,52 @@
+{
+  "name": "@rnatsuki/myssh",
+  "version": "1.0.0",
+  "description": "A simple SSH2 wrapper to simplify SSH connections",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "myssh": "cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "test": "node test.js",
+    "cli": "node cli.js",
+    "example:insecure": "node -r ts-node/register src/insecure-example.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "cli.js",
+    "README.md"
+  ],
+  "keywords": [
+    "ssh",
+    "ssh2",
+    "remote",
+    "connection",
+    "sftp",
+    "shell"
+  ],
+  "author": "rnatsuki",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnatsuki/myssh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rnatsuki/myssh/issues"
+  },
+  "homepage": "https://github.com/rnatsuki/myssh#readme",
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "ssh2": "^1.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "@types/ssh2": "^1.15.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
