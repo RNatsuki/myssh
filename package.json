@@ -4,6 +4,7 @@
   "description": "A simple SSH2 wrapper to simplify SSH connections",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "users": ["Luis","Rodrigo"]
   "bin": {
     "myssh": "cli.js"
   },
