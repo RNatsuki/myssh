@@ -1,10 +1,10 @@
 {
   "name": "@rnatsuki/myssh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple SSH2 wrapper to simplify SSH connections",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "users": ["Luis","Rodrigo"]
+  "users": ["Luis","Rodrigo"],
   "bin": {
     "myssh": "cli.js"
   },
